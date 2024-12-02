@@ -24,4 +24,26 @@ Adding User to sudo Group ===>
 
 Add user to sudo group via adduser <username> sudo
 
-# adduser <username> sudo
+# adduser <username> sudo 
+after add the new user ....
+
+ add that user to the sudo groupe  by cmd 
+    usermod -aG sudo <username> 
+
+now verify whether the user was successfully added to the  sudo groub 
+by cmd  >>>>>  "$ getent group sudo " 
+
+new u need to reboot the system by cmd 
+    $ reboot 
+    for the  changes to take the effect then log in and verify sudopowers 
+
+================>step 3 ============================>
+Step 3: Running root-Privileged Commands 
+
+
+
+ssh ==> is network protocl used to securely access and manage 
+remote servers 
+or systeme over an unsecured network it alow u the  to execute the cmd and   transfer the files and manager systems remotely 
+
+
