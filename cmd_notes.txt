@@ -47,3 +47,8 @@ remote servers
 or systeme over an unsecured network it alow u the  to execute the cmd and   transfer the files and manager systems remotely 
 
 
+to chang the hostname 
+
+hostnamectl  set-hostname  new_hostname  
+
+
